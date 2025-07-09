@@ -201,8 +201,8 @@ def run_scraping(priority_levels):
             if code:
                 selected_stations.append((s, code))
 
-    member_id = "1440216686"
-    password = "2XeetkDr"
+    member_id = "MEMBER_ID"
+    password = "PASSWORD"
     page, context, browser = login_to_smartex(member_id, password)
     travel_date = date(2025, 8, 1)
 

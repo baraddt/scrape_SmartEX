@@ -184,8 +184,8 @@ def run_scraping_from_checkpoint():
     excel_filename = "train_schedule_PRIORITY_1.xlsx"
     travel_date = date(2025, 8, 1)
 
-    member_id = "1440216686"
-    password = "2XeetkDr"
+    member_id = "MEMBER_ID"
+    password = "PASSWORD"
     page, context, browser = login_to_smartex(member_id, password)
 
     done_pairs = load_done_pairs()
